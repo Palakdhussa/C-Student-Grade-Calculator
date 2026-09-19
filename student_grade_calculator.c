@@ -10,7 +10,6 @@ float calculatePercentage(float marks[], int subjects) {
 
     return total / subjects;
 }
-
 // Function to determine grade
 char calculateGrade(float percentage) {
     if (percentage >= 90)
